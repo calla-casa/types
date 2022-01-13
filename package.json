@@ -1,8 +1,8 @@
 {
-  "name": "@calla/types",
-  "version": "1.0.0",
+  "name": "@calla.casa/types",
+  "version": "1.0.1",
   "description": "The calla editor types",
-  "main": "index.js",
+  "main": "src/index.ts",
   "repository": "https://github.com/calla-casa/types",
   "author": "shemi <shemi.perez@gmail.com>",
   "license": "MIT"
