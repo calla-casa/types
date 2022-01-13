@@ -1,6 +1,6 @@
 import { Meta } from "./meta";
 
 export interface Model {
-  id: number;
+  id: string;
   meta: Meta;
 }
