@@ -1,5 +1,5 @@
 export type Device = {
-  id: number | null;
+  id: string | null;
   name: string;
   status: {
     platform: string;
