@@ -1,5 +1,4 @@
-import { Tile } from "./tile";
-import { Model } from "./model";
+import { Tile, Model } from "./index";
 
 export interface Group extends Model {
   name: string;

@@ -1,6 +1,4 @@
-import { Background } from "./background";
-import { Group } from "./group";
-import { Model } from "./model";
+import { Background, Group, Model } from "./index";
 
 export interface Page extends Model {
   name: string | null;

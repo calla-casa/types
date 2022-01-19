@@ -1,5 +1,4 @@
-import { TileAction } from "./tileAction";
-import { Tile } from "../tile";
+import { TileAction, Tile } from "../index";
 
 export interface LightTileStyle {
   background: {
