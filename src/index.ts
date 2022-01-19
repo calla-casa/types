@@ -1,4 +1,4 @@
-export { Background } from './background';
+export { Background, BackgroundType } from './background';
 export { Board } from './board';
 export { Device } from './device';
 export { Group } from './group';
