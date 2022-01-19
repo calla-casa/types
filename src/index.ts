@@ -1,11 +1,15 @@
 export { Background, BackgroundType } from './background';
-export { Board } from './board';
-export { Device } from './device';
-export { Group } from './group';
 export { IconName } from './iconName';
 export { Meta } from './meta';
+
+export { Device } from './device';
+
 export { Model } from './model';
+export { Board } from './board';
 export { Page } from './page';
+export { Group } from './group';
 export { Tile } from './tile';
-export { LightTileActions, LightTileStyle, LightTile } from './tiles/lightTile';
+
 export { TileAction } from './tiles/tileAction';
+
+export { LightTileActions, LightTileStyle, LightTile } from './tiles/lightTile';

@@ -1,4 +1,4 @@
-import { Background, Page, Model } from "./index";
+import { Background, Page, Model } from './index';
 
 export interface Board extends Model {
   name: string | null;

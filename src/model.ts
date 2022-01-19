@@ -1,4 +1,4 @@
-import { Meta } from "./index";
+import { Meta } from '@/meta';
 
 export interface Model {
   id: string;

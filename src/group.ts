@@ -1,4 +1,4 @@
-import { Tile, Model } from "./index";
+import { Tile, Model } from './index';
 
 export interface Group extends Model {
   name: string;

@@ -1,4 +1,4 @@
-export type BackgroundType = "solid" | "images" | null;
+export type BackgroundType = 'solid' | 'images' | null;
 
 export type Background = {
   type: BackgroundType;
