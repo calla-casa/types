@@ -1,4 +1,4 @@
-import { Background, Group, Model } from "./index";
+import { Background, Group, Model } from './index';
 
 export interface Page extends Model {
   name: string | null;
