@@ -1,4 +1,4 @@
-import { CallaEvent } from '@/callaEvent';
+import { CallaEvent } from '../callaEvent';
 
 export type FetchBoardEventData = {
   deviceId: string;

@@ -21,9 +21,6 @@
     "resolveJsonModule": true,
     "importHelpers": true,
     "baseUrl": "src",
-    "paths": {
-      "@/*": ["*"]
-    }
   },
   "include": ["src/**/*.ts"],
   "exclude": ["node_modules"]

@@ -1,5 +1,5 @@
-import { CallaEvent } from '@/callaEvent';
-import { Device } from '@/device';
+import { CallaEvent } from '../callaEvent';
+import { Device } from '../device';
 
 export type RegisterDeviceEventData = Omit<Device, 'id' | 'boardId' | 'meta' | 'order'>;
 
