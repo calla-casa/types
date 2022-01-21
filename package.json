@@ -6,6 +6,9 @@
   "repository": "https://github.com/calla-casa/types",
   "author": "shemi <shemi.perez@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "build": "tsc --declaration"
+  },
   "dependencies": {},
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.10.0",
