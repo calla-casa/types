@@ -1,9 +1,4 @@
 import { CallaEvent } from '@/callaEvent';
-export declare type RegisterDeviceEventData = {
-    id: string;
-    name: string;
-    platform: string;
-    manufacturer: string;
-    webViewVersion: string;
-};
+import { Device } from '@/device';
+export declare type RegisterDeviceEventData = Omit<Device, 'id' | 'boardId'>;
 export declare type RegisterDeviceEvent = CallaEvent<RegisterDeviceEventData>;
